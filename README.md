@@ -22,7 +22,7 @@ Em breve...
 
 ## Estrutura
 
-.
+```
 ├── README.md
 ├── angular.json
 ├── api
@@ -33,3 +33,4 @@ Em breve...
 ├── src
 ├── tsconfig.json
 └── tslint.json
+```
