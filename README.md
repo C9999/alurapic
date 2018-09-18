@@ -1,27 +1,35 @@
 # Alurapic
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.0.7.
+Projeto usado em estudos de Angular via plataforma da Alura. O objetivo do projeto é criar uma galeria dinamica de imagens.
 
-## Development server
+[Parte 1](https://cursos.alura.com.br/course/angular-fundamentos)
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+## Ambiente
 
-## Code scaffolding
+Primeiro instale as dependências usando o `npm install`.
+Após isso inicie o servidor pelo comando `ng serve`, a aplicação vai subir no  endereço: `http://localhost:4200/`.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## API
 
-## Build
+Dentro do curso foi proposto o uso de uma API (já pronta) para consumirmos os dados. Essa API já esta dentro do projeo principal.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+Dentro da pasta /api instale as dependências usando o `npm install`.
+Para executa-la rode o comando: `npm start`.
 
-## Running unit tests
+## Testes
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Em breve...
 
-## Running end-to-end tests
+## Estrutura
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+.
+├── README.md
+├── angular.json
+├── api
+├── e2e
+├── node_modules
+├── package-lock.json
+├── package.json
+├── src
+├── tsconfig.json
+└── tslint.json
